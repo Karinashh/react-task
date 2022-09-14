@@ -1,6 +1,6 @@
 import './App.css';
 import SimpsonsCharacters from "./theSimpsons/simpsonsCharacters";
-
+// Описати всю сім'ю сімпсонів (5 персонажів)
 function App() {
   return (
     <div className="wrap">
