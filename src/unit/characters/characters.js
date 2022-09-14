@@ -1,4 +1,4 @@
-import {useState} from "@types/react";
+import {useState} from "react";
 import Character from "../rickAndMorty/character";
 
 export default function Characters() {
