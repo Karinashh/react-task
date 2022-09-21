@@ -1,5 +1,4 @@
 const onSubmit = (data) => {
-    console.log(data);
 
     fetch('https://jsonplaceholder.typicode.com/posts', {
         method: 'POST',
@@ -10,5 +9,6 @@ const onSubmit = (data) => {
     })
         .then((response) => response.json())
         .then((json) => console.log(json));
+
 }
 export {onSubmit}
