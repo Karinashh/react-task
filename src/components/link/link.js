@@ -1,7 +1,6 @@
 const onSubmit = (data) => {
-    console.log(data);
 
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+    fetch('https://jsonplaceholder.typicode.com/users', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
