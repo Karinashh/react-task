@@ -1,12 +1,10 @@
 import './App.css';
-import Form from "./components/form/form";
-
-// Зробити компонент, в якому буде форма, за допомоги якої можливо створити нового юзера постовим запитом на http://jsonplaceholder.typicode.com/users
+import Users from "./components/users/Users";
 
 function App() {
   return (
     <div className="App">
-<Form/>
+        <Users/>
     </div>
   );
 }
